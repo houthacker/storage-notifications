@@ -96,3 +96,5 @@ hs_err_pid*
 .idea/*
 storage-notifications.iml
 *.yml
+target/
+dependency-reduced-pom.xml
