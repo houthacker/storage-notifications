@@ -9,6 +9,10 @@ import io.houthacker.notifications.conf.MySQLConfiguration;
  */
 public class NotificationsConfiguration extends Configuration {
 
-    @JsonProperty("mysql-configuration")
-    private MySQLConfiguration mySQLConfiguration = new MySQLConfiguration();
+    @JsonProperty("mysql")
+    private MySQLConfiguration mySqlConfiguration = new MySQLConfiguration();
+
+    public MySQLConfiguration getMySqlConfiguration() {
+        return mySqlConfiguration;
+    }
 }
